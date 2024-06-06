@@ -30,7 +30,7 @@ const luxus = () => {
            Discover the convenience of our chauffeur service, seamlessly integrated across 11 comprehensive
            pages  to serve you throughout Australia. Our platform, powered by sophisticated booking technology,
            provides a  secure and personalized car rental experience. Clients can choose from a diverse fleet 
-           of premium  vehicles for any occasion.
+           of premium  vehicles for any occasion. 
           </p>
           <a
             href="https://github.com/Mohaz24/Chauffeur"
