@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import luxusImg from "../public/assets/projects/luxus.png";
+import luxusImg from "../public/assets/projects/Luxus.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
