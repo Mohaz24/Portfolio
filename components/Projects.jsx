@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import MealzImg from '../public/assets/projects/Mealz.png';
-import luxusImg from '../public/assets/projects/luxus.png'
+import luxusImg from '../public/assets/projects/Luxus.png'
 import quizImg from '../public/assets/projects/quiz.png'
 import passwordImg from '../public/assets/projects/password-generator.png';
 import TaskImg from '../public/assets/projects/task.png';
