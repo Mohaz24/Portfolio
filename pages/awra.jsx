@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import passwordImg from "../public/assets/projects/password-generator.png";
+import awraImg from "../public/assets/projects/Awra.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
@@ -13,12 +13,12 @@ const passwordGen = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={passwordImg}
+          src={awraImg}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Password Generator </h2>
-          <h3>HTML / CSS / JS</h3>
+          <h2 className="py-2">Awra Veil </h2>
+          <h3>HTML / CSS / JS / Shopfiy</h3>
         </div>
       </div>
 
@@ -27,21 +27,19 @@ const passwordGen = () => {
           <p>Project</p>
           <h2 className="mb-3 mt-2">Overview</h2>
           <p>
-            A password generator is useful tool that can create strong and
-            random passwords for users. The user can enter the desired length of
-            the password in an input field, and choose the type of data to
-            include in the password from four radio buttons numbers, letters,
-            symbols, or all.
+            A local E-commerence women clothing app for veils, modest dresses including wedding 
+            dresses. Users able to purchase cloth in two major currencies CAD 
+            and USD. 
           </p>
           <a
-            href="https://github.com/Mohaz24/Password-generator"
+            href="#"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
           <a
-            href="https://stately-llama-518d2f.netlify.app/"
+            href="https://awraveil.com/"
             target="_blank"
             rel="noreferrer"
           >
@@ -60,6 +58,9 @@ const passwordGen = () => {
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Javascript
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Shopfiy
               </p>
             </div>
           </div>

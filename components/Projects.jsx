@@ -4,7 +4,7 @@ import React from 'react';
 import MealzImg from '../public/assets/projects/Mealz.png';
 import luxusImg from '../public/assets/projects/Luxus.png'
 import quizImg from '../public/assets/projects/quiz.png'
-import passwordImg from '../public/assets/projects/password-generator.png';
+import awraImg from '../public/assets/projects/Awra.png';
 import TaskImg from '../public/assets/projects/task.png';
 import ProjectItem from './ProjectItem';
 
@@ -17,6 +17,12 @@ const Projects = () => {
         </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8' >
+        <ProjectItem
+            title='Awra Veil'
+            backgroundImg={awraImg}
+            projectUrl='/awra'
+            tech='Shopfiy'
+          />
           <ProjectItem
             title='Mealz Food Delivery'
             backgroundImg={MealzImg}
@@ -36,13 +42,6 @@ const Projects = () => {
             backgroundImg={quizImg}
             projectUrl='/quizzical'
             tech='React JS'
-
-          />
-          <ProjectItem
-            title='Password-generator'
-            backgroundImg={passwordImg}
-            projectUrl='/passwordGen'
-            tech='JS'
 
           />
           <ProjectItem
