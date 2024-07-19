@@ -21,21 +21,19 @@ const Projects = () => {
             title='Awra Veil'
             backgroundImg={awraImg}
             projectUrl='/awra'
-            tech='Shopfiy'
+            tech='Shopify'
+          />
+           <ProjectItem
+            title='Luxus Chauffeur'
+            backgroundImg={luxusImg}
+            projectUrl='/luxus'
+            tech='React JS'
           />
           <ProjectItem
             title='Mealz Food Delivery'
             backgroundImg={MealzImg}
             projectUrl='/mealz'
             tech='React JS'
-          />
-
-          <ProjectItem
-            title='Luxus Chauffeur'
-            backgroundImg={luxusImg}
-            projectUrl='/luxus'
-            tech='React JS'
-
           />
           <ProjectItem
             title='Quizzical App'

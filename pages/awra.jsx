@@ -18,7 +18,7 @@ const passwordGen = () => {
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
           <h2 className="py-2">Awra Veil </h2>
-          <h3>HTML / CSS / JS / Shopfiy</h3>
+          <h3>HTML / CSS / JS / Shopify</h3>
         </div>
       </div>
 
@@ -60,7 +60,7 @@ const passwordGen = () => {
                 <RiRadioButtonFill className="pr-1" /> Javascript
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Shopfiy
+                <RiRadioButtonFill className="pr-1" /> Shopify
               </p>
             </div>
           </div>
